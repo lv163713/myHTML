@@ -1,0 +1,78 @@
+/* 基础样式 */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 头像样式 */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #007BFF;
+}
+
+.profile h1 {
+  font-size: 28px;
+  margin: 5px 0;
+}
+
+.profile p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* 技能样式 */
+.skills-section {
+  margin-top: 30px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #e0e0e0;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* 联系方式样式 */
+.contact-section {
+  margin-top: 30px;
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  margin-bottom: 12px;
+}
+
+.contact a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
